@@ -131,8 +131,6 @@ export function LegalPage() {
                 information or identifying data.
                 <br />
                 <br />
-                P-Play is entirely self hostable, and can be run on any
-                server. Even by yourself.
               </Paragraph>
             }
           />
