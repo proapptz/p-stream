@@ -142,7 +142,21 @@ export function Navigation(props: NavigationProps) {
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <BrandPill clickable header />
-              </Link> 
+              </Link>
+              <a
+                href={conf().DISCORD_LINK}
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-white tabbable rounded-full backdrop-blur-lg"
+                hidden="true"
+              >
+                <IconPatch
+                  icon={Icons.DISCORD}
+                  clickable
+                  downsized
+                  navigation
+                />
+              </a>
               {!enableLowPerformanceMode &&
                 (window.location.pathname !== "/discover" ? (
                   <a
